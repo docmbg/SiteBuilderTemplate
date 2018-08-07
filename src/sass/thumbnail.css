@@ -1,0 +1,12 @@
+img.thumbnail {
+  width: 6em; }
+
+.thumbnailContainer {
+  margin-top: 1em; }
+  .thumbnailContainer > .row {
+    margin-bottom: 1.5em !important; }
+    .thumbnailContainer > .row > .col > .title {
+      font-weight: 600;
+      text-decoration: underline; }
+    .thumbnailContainer > .row > .col > .date {
+      font-weight: 600; }

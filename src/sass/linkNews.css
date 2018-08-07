@@ -1,0 +1,5 @@
+.linkNews {
+  margin-left: 5% !important; }
+  .linkNews > li > .title {
+    font-weight: 600;
+    text-decoration: underline; }

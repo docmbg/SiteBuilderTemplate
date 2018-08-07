@@ -1,0 +1,43 @@
+.top {
+    display: inline-block;
+}
+
+.topNavItem.parent.top {
+    text-align: center;
+    position: relative;
+}
+
+.topNavPad {
+    padding:0.5em;
+}
+
+
+.topNavNested {
+    padding: 0;
+    display: none;
+    background: white;
+    margin-top: -2.1em;
+    min-height: 2.6em;
+    float: left;
+    top: 3.5em;
+    left: 0em;
+    margin-left: 0em;
+    z-index: 10;
+    width: 100%;
+    min-width:13em;
+    text-align:left;
+    position: absolute;
+    min-width: max-content;
+    max-height: 20em;
+    overflow-y: auto;
+}
+
+
+
+.topNavNested > .topNavItem:hover {
+        background: rgb(217,217,217);
+    }
+
+.topNavNested > .topNavItem {
+    padding:0.2em!important;
+}

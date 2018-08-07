@@ -1,0 +1,31 @@
+.sideNavNested {
+    display: none;
+    position: relative;
+    left: 100%;
+    background: white;
+    margin-top: -2.1em;
+    min-height: 2.6em;
+    margin-left:-1em;
+    z-index:2000;
+    max-height: 20em;
+    overflow-y: auto;
+    min-width:15em;
+}
+
+.parent {
+    &:hover {
+        
+        >ul {
+            transition-delay:2s;
+            display: inline-block;
+        }
+    }
+}
+
+.material-icons.arrows {
+    float:right;
+}
+
+.sideNavItem.sideNav:hover {
+    background: rgb(217,217,217);
+}

@@ -1,0 +1,17 @@
+img.thumbnail {
+    width:6em;
+}
+
+.thumbnailContainer {
+    margin-top:1em;
+    >.row {
+        margin-bottom:1.5em!important;
+        >.col>.title {
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        >.col>.date {
+            font-weight: 600;
+        }
+    }
+}
